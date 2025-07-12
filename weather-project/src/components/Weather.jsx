@@ -31,7 +31,7 @@ const Weather = () =>{
         backgroundImage : `url("https://wallpaperaccess.com/full/1540049.jpg")`,
     }}>
         
-        <div className="bg-black bg-opacity-60 p-20 rounded-lg absolute text-blue-400">
+        <div className="bg-black bg-opacity-60 sm:bg-transparent p-20 rounded-lg absolute text-blue-400">
             <h2 className="text-2xl font-bold ">Weather Report</h2>
             <p className="mt-2">I can give you a weather report about your city</p>
             <input onChange={handleCity} type="text" placeholder="Enter your city...." className="
