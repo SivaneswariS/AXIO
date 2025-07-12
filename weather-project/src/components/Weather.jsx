@@ -26,12 +26,12 @@ const Weather = () =>{
     }
 
     return (
-    <div className="min-h-screen bg-cover  flex items-center justify-center "
+    <div className="min-h-screen bg-cover bg-center flex items-center justify-center "
     style={{
         backgroundImage : `url("https://wallpaperaccess.com/full/1540049.jpg")`,
     }}>
         
-        <div className="bg-black bg-opacity-60 sm:bg-transparent p-20 rounded-lg absolute text-blue-400">
+        <div className="bg-black bg-opacity-60 p-6 md:p-10 lg:p-20 rounded-lg w-full max-w-md  text-blue-400 mx-4">
             <h2 className="text-2xl font-bold ">Weather Report</h2>
             <p className="mt-2">I can give you a weather report about your city</p>
             <input onChange={handleCity} type="text" placeholder="Enter your city...." className="
